@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Products & Services</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome!!!</h2>
+        <p>
+          At Boiling Springs Hatchery we provide the best quality chicks for your
+      needs. We have meat chickens, laying hens, and dual purpose breeds. These
+      chicks have some of the best genetic lines in the world. So come down and
+      get yourself just a couple dozen chickens because you won't ever get
+      enough of them.
+        </p>
+      </div>
+
+      <div class="sidebar-two">
+        <img
+          id="logo"
+          src="https://cdn.glitch.com/eb551350-d360-4ba4-9de0-8000d89ace01%2FChicken%20ad%20(1).jpg?v=1606073452096"
+        />
+        <div>
+          <ul>
+            <li>Dual Purposed Chickens</li>
+            <li>Laying Chickens</li>
+            <li>Meat Chickens</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>25% off rare breeds</h4>
+        <p>
+          Going on right now we have our rare chicken breeds off 25% for the month of November
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Get 10% off if you buy 50 chickens</h4>
+        <p>
+         During the cold months we sell our chickens for 10% off if you get them in between November-Febuary
+        </p>
+        <button>Learn More</button>
+      </div>
+    </div>
+ <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+    
+        <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
